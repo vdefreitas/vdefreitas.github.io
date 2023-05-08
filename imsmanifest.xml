@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<manifest identifier="DFHKEJKNBw7efGquQICZA6Jw2hU_Q12OSusdUfuU" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Fundamentals of Instructional Design</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Fundamentals of Instructional Design</title>
+        <adlcp:datafromlms>eyJjcHYiOiJTdXNkVWZ1VSIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+      <file href="scormcontent/lib/main.bundle.js"/>
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/main.bundle.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Black.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Italic.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Bold.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Regular.woff" />
+<file href="scormcontent/lib/fonts/Merriweather-Light.woff" />
+<file href="scormcontent/assets/twNh0IR48iKCx9Ki_small.png" />
+<file href="scormcontent/assets/b_bP9G0CVFOLU65x_eZ3i03eRMQZGqLZZ.jpg" />
+<file href="scormcontent/assets/vl_mbel6vAqaa_wR_mmEUltsupoXfISTx.jpg" />
+<file href="scormcontent/assets/hUtpLEgCUDjxA53x_anBEL65Bc9SRhB3W.jpg" />
+<file href="scormcontent/assets/qlBUL0yxCXYMTmbF_mountains.jpg" />
+<file href="scormcontent/assets/jO8cwDJTGkFqDlp5_oqKmklYWuhXVmeQm.jpg" />
+<file href="scormcontent/assets/nV8ZPKn8-QM_ZV6r_xB4hxlDZbJpWNTRt.jpg" />
+<file href="scormcontent/assets/7L-II406ovgoxjTl_Rlnpe0jn0GeYi_Pe.jpg" />
+<file href="scormcontent/assets/MK1JMpNm8vW-fg3k_7_vAnhtEpdI3KB0d.png" />
+<file href="scormcontent/assets/XMJEudOE6UcMNgCy_45_abstract.jpg" />
+<file href="scormcontent/assets/ArhXxn0UELVfL5S7_example-header-image.jpg" />
+
+    </resource>
+  </resources>
+</manifest>
